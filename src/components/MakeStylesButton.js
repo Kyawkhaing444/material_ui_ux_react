@@ -1,5 +1,5 @@
 import React from "react";
-import { makeStyles } from "@material-ui/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   //   }
   buttonStyles: {
     color: "red",
-    [theme.breakpoints.up("sm")]: {
+    [theme.breakpoints.up('sm')]: {
       color: "green",
     }
   },
